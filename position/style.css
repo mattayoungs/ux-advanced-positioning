@@ -1,1 +1,23 @@
 /* Add your CSS Below */
+
+body {
+  height: 1000px;
+}
+
+.one :nth-child(2) {
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+
+.two :nth-child(3) {
+  position: absolute;
+  top: 410px;
+  left: 232px;
+}
+
+.three :nth-child(1) {
+  position: fixed;
+  bottom: 145px;
+  right: 132px;
+}
